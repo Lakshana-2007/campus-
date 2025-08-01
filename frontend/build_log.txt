@@ -1,0 +1,105 @@
+﻿[36mvite v6.4.1 [32mbuilding for production...[36m[39m
+transforming...
+[32mΓ£ô[39m 120 modules transformed.
+node.exe : [31mΓ£ù[39m 
+Build failed in 551ms
+At line:1 char:1
++ & "C:\Program Files\New 
+Folder/node.exe" 
+"C:\Program Files\New 
+Folder ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo        
+      : NotSpecified: (  
+  [31mΓ£ù[39m Build fa   
+ iled in 551ms:String)    
+ [], RemoteException
+    + FullyQualifiedError 
+   Id : NativeCommandErr  
+  or
+ 
+[31merror during build:
+[31msrc/pages/student/Att
+endanceOverview.jsx 
+(3:49): 
+"HiOutlineTrendingUp" is 
+not exported by "node_modu
+les/react-icons/hi2/index.
+mjs", imported by "src/pag
+es/student/AttendanceOverv
+iew.jsx".[31m
+file: [36mD:/capus/fronte
+nd/src/pages/student/Atten
+danceOverview.jsx:3:49[31
+m
+[33m
+1: import { useState, 
+useEffect } from 'react';
+2: import api from 
+'../../utils/api';
+3: import { 
+HiOutlineCheckCircle, 
+HiOutlineXCircle, 
+HiOutlineTrendingUp } 
+from 'react-icons/hi2';
+                          
+                          
+^
+4: 
+5: const 
+AttendanceOverview = () 
+=> {
+[31m
+    at getRollupError (fil
+e:///D:/capus/frontend/nod
+e_modules/rollup/dist/es/s
+hared/parseAst.js:402:41)
+    at error (file:///D:/c
+apus/frontend/node_modules
+/rollup/dist/es/shared/par
+seAst.js:398:42)
+    at Module.error (file:
+///D:/capus/frontend/node_
+modules/rollup/dist/es/sha
+red/node-entry.js:17040:16
+)
+    at 
+Module.traceVariable (file
+:///D:/capus/frontend/node
+_modules/rollup/dist/es/sh
+ared/node-entry.js:17452:2
+9)
+    at 
+ModuleScope.findVariable (
+file:///D:/capus/frontend/
+node_modules/rollup/dist/e
+s/shared/node-entry.js:150
+70:39)
+    at ReturnValueScope.fi
+ndVariable (file:///D:/cap
+us/frontend/node_modules/r
+ollup/dist/es/shared/node-
+entry.js:5673:38)
+    at FunctionBodyScope.f
+indVariable (file:///D:/ca
+pus/frontend/node_modules/
+rollup/dist/es/shared/node
+-entry.js:5673:38)
+    at Identifier.bind (fi
+le:///D:/capus/frontend/no
+de_modules/rollup/dist/es/
+shared/node-entry.js:5447:
+40)
+    at 
+CallExpression.bind (file:
+///D:/capus/frontend/node_
+modules/rollup/dist/es/sha
+red/node-entry.js:2825:28)
+    at 
+CallExpression.bind (file:
+///D:/capus/frontend/node_
+modules/rollup/dist/es/sha
+red/node-entry.js:12179:15
+)[39m

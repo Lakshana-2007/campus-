@@ -1,0 +1,50 @@
+[
+  {
+    "_id": "1",
+    "name": "John Doe",
+    "email": "student@campus.edu",
+    "password": "$2a$10$NzKfU0eEY1RovKfyIDruyuUsFsm3qnKmZJrXirVLIqSAmbK4HUi0a",
+    "role": "student",
+    "department": "Computer Science",
+    "cgpa": 8.5,
+    "semester": 6,
+    "createdAt": "2026-04-16T05:51:17.474Z"
+  },
+  {
+    "_id": "2",
+    "name": "Dr. Sarah Smith",
+    "email": "faculty@campus.edu",
+    "password": "$2a$10$Dr5PWev4m.E3uNfyf9b7juUFXClT2.gICxX2yJ3MHR.gUF8C1Zdk6",
+    "role": "faculty",
+    "department": "Computer Science",
+    "createdAt": "2026-04-16T05:51:17.577Z"
+  },
+  {
+    "_id": "3",
+    "name": "Admin User",
+    "email": "admin@campus.edu",
+    "password": "$2a$10$/Vu6r5iOC0q1Zw1H2MET5uJz96jKQ8VGIJFvJc2DaqWtqIk1.uBgO",
+    "role": "admin",
+    "department": "Administration",
+    "createdAt": "2026-04-16T05:51:17.681Z"
+  },
+  {
+    "_id": "4",
+    "name": "Mr. Placement",
+    "email": "coordinator@campus.edu",
+    "password": "$2a$10$JO0tHX09tdTQKsyDFpdBzeBQ6DCII5b2fcK7D0jQtSs7NM0reLgMW",
+    "role": "placement_coordinator",
+    "department": "Computer Science",
+    "createdAt": "2026-04-16T05:51:17.789Z"
+  },
+  {
+    "_id": "5",
+    "name": "Jane Alum",
+    "email": "alumni@campus.edu",
+    "password": "$2a$10$9bV8JYEdK3hwKhsFPdzHveudwnOw8W8lVs4L5DIn6K52Kzn0f3WiS",
+    "role": "alumni",
+    "department": "Computer Science",
+    "linkedinURL": "https://linkedin.com/in/janealum",
+    "createdAt": "2026-04-16T05:51:17.892Z"
+  }
+]

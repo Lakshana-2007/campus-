@@ -1,0 +1,49 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: var(--sidebar-width);
+    right: 0;
+    height: var(--navbar-height);
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 24px;
+    z-index: 900;
+    transition: var(--transition);
+}
+
+.navbar.collapsed {
+    left: var(--sidebar-collapsed);
+}
+
+.navbar-greeting {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--text-secondary);
+}
+
+.navbar-name {
+    color: var(--text-primary);
+    font-weight: 700;
+}
+
+.navbar-role-badge {
+    padding: 6px 14px;
+    border-radius: 999px;
+    background: var(--diamond-50);
+    color: var(--diamond-600);
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        left: 0;
+        padding: 0 16px;
+        padding-left: 64px;
+    }
+}

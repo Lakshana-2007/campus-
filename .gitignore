@@ -1,0 +1,7 @@
+﻿frontend/node_modules/
+mongodb-data/
+mongodb.msi
+campus-hub.zip
+.DS_Store
+npm-debug.log*
+yarn-error.log*
